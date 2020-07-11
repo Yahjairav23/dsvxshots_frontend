@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/*Contact Page Styling*/
+
+.contact-decor-box {
+  position: relative;
+  display: block;
+  width: 500px;
+  height: 800px;
+  background-color: blue;
+}
+/* .contact-img {
+
+} */
