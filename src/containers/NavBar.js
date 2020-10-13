@@ -10,7 +10,7 @@ class NavBar extends Component {
                     <a className='navi-item' href="/portfolio">Portfolio</a> 
                     </li>
                     <li>
-                    <a className='navi-item' href="#">Rates</a> 
+                    <a className='navi-item' href="/rates">Rates</a> 
                     </li>
                     <li>
                         <a href='/'>
