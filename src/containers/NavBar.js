@@ -7,7 +7,7 @@ class NavBar extends Component {
             <nav>
                 <ul class='navi-list'>
                     <li>
-                    <a className='navi-item' href="#">Portfolio</a> 
+                    <a className='navi-item' href="/portfolio">Portfolio</a> 
                     </li>
                     <li>
                     <a className='navi-item' href="#">Rates</a> 
@@ -18,7 +18,7 @@ class NavBar extends Component {
                         </a>
                     </li>
                     <li>
-                    <a className='navi-item' href="#">Booking</a> 
+                    <a className='navi-item' href="/bookings">Booking</a> 
                     </li>
                     <li>
                     <a className='navi-item' href="/contact">Contact Us</a> 
