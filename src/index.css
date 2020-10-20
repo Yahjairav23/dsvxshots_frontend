@@ -88,7 +88,7 @@ code {
 
 .contact-img {
   position: absolute;
-  top: 10rem;
+  top: 3rem;
   left: 12rem;
   height: auto;
   width: 80%;
@@ -103,7 +103,7 @@ code {
 
 .mid {
   position: absolute;
-  padding: 35% ;
+  padding: 10% ;
 }
 
 .contact-text-box {
