@@ -21,6 +21,7 @@ function ContactContainer() {
                         <h4 className='contact-email'>demo@demo.com</h4>
                         <div className='contact-inquiry'>
                         {/* <input className='contact-text-box' type='textarea' rows='5' placeholder='Inquire here...'/> */}
+                        <input className="email" type="text" placeholder="Email"/>
                         <textarea className='contact-text-box' rows='5' placeholder='Inquire here...'/>
                         <br/>
                         <input type='submit' value='Submit'/>
