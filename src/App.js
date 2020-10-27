@@ -8,6 +8,7 @@ import BookingsContainer from './containers/BookingsContainer'
 import PortfolioContainer from './containers/PortfolioContainer'
 import RatesContainer from './containers/RatesContainer'
 import NavBar from './containers/NavBar'
+import HomePage from './containers/HomePage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/bookings' render={() => <BookingsContainer/>} />
         <Route exact path='/portfolio' render={() => <PortfolioContainer/>} />
         <Route exact path='/rates' render={() => <RatesContainer/>} />
+        <Route exact path='/' render={() => <HomePage/>}/>
 
       </Switch>
     </div>
