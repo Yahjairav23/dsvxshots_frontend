@@ -6,10 +6,8 @@ function ContactContainer() {
         <div>
             <h1>Contact Us</h1>
             <div className='row'>
-                {/* <div className='contact-decor-box'> */}
                 <div className='col'>
                     <div className='contact-decor'>
-                        {/* <div className='contact-decor-box'></div> */}
                         <img src={contactImage} alt='photographer-headshot' className='contact-img'/>
                     </div>
                 </div>
@@ -20,7 +18,6 @@ function ContactContainer() {
                         <h4 className='contact-number'>000-000-0000</h4>
                         <h4 className='contact-email'>demo@demo.com</h4>
                         <div className='contact-inquiry'>
-                        {/* <input className='contact-text-box' type='textarea' rows='5' placeholder='Inquire here...'/> */}
                         <input className="email" type="text" placeholder="Email"/>
                         <textarea className='contact-text-box' rows='5' placeholder='Inquire here...'/>
                         <br/>
@@ -30,7 +27,6 @@ function ContactContainer() {
                     </div>
                 </div>
             </div>
-            {/* </div> */}
         </div>
     )
 }
